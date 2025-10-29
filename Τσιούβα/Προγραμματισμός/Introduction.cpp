@@ -5,9 +5,9 @@
 
 int main(){
 	
-    system ("CHCP 1253 > nul"); //για τα Ελληνικά
+    system ("CHCP 1253 > nul"); //Γ£Γ©Γ΅ Γ΄Γ΅ Γ…Γ«Γ«Γ§Γ­Γ©ΓªΓ
 
-   printf("Kαλημέρα!\n");
+   printf("KΓ΅Γ«Γ§Γ¬ΓΓ±Γ΅!\n");
    
    system("PAUSE");
 
