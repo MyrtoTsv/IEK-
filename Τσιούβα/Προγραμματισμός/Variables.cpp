@@ -15,12 +15,18 @@ int main(){
 	double huge_number= 987654.321;
 	
 	printf("small_number = %d. \n",small_number);
-	printf("small_answer = %c. \n",small_answer);
-	printf("big_answer[] = %s. \n",big_answer);
+	printf("small_answer = '%c.' \n",small_answer);
+   printf("big_answer[] = \"%s\". \n",big_answer);
 	printf("common_integer = %d. \n",common_integer);
 	printf("unsigned int second_integer = %d. \n",second_integer);
-	printf("float fever = %f. \n",fever);
-	printf("double huge_number = %lf. \n",huge_number);
+	printf("float fever = %.1f. \n",fever);
+	printf("double huge_number = %.3lf. \n",huge_number);
+	
+	int noumero;
+	printf("Τι τιμη θες να εχει;");
+	scanf("%d",&noumero);
+	
+	printf("H μεταβλητη έχει τιμή %d.\ n",noumero);
 	
 	system("PAUSE");
 	return 0;
