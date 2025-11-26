@@ -27,6 +27,7 @@
  int main (){
  	
  	int x,y,z,max,min;
+  float avg;
  	
  	printf("Dwse mou treis arithmous\n");
  	scanf("%d %d %d",&x,&y,&z);
@@ -46,12 +47,13 @@
  	  min = z;
  	  
  	//c)
- 	
+ 	avg=(x+y+z)/3.0;
  	printf("O megistos einai %d.\n",max);
  	printf("O elaxistos einai %d.\n"min);
- 	printf("O mesos oros einai %f.\n",(x+y+z)/3.0);
+ 	printf("O mesos oros einai %f.\n",avg);
  	
  	printf("\n");
  	system("PAUSE > nul");
  	return 0;
  }
+
