@@ -14,9 +14,12 @@
        printf("O arithmos einai zugos");
      else if ((int)num%2!=0)
        printf("O arithmos einai monos");
+  //printf(((int)num%2==0)?"O arithmos einai zugos":"O arithmos einai monos");
+    
 
    printf("\n");
    system("PAUSE > nul");
    return 0;
  }
+
 
