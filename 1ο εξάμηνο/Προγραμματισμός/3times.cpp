@@ -44,7 +44,10 @@
  	scanf("%d %d %d",&x,&y,&z);
  	//a)
  	max = x;
- 	
+
+  //max = (x>=y) ? x : y;
+  //max = (z>=max) ? z : max;
+  //max = (x>=y) ? (x>=z ? x : z) : (y>=z ? z);
  	if (y>=max)
  	   max = y;
  	if (z>=max)
@@ -67,3 +70,4 @@
  	system("PAUSE > nul");
  	return 0;
  }
+
