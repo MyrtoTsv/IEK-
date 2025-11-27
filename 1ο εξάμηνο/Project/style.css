@@ -1,15 +1,15 @@
 .product{
-    width:1000px;/*to platos*/
+    width:800px;/*to platos*/
     height: 200px;/*to ipsos*/
-    background-color:rgb(170, 128, 193); /* background xrwma sto div*/
-    margin: 15px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
-    padding: 10px;/*gia na exei h eikona ligo gyrw gyrw perigramma*/
+    background-color:rgb(255, 255, 255); /* background xrwma sto div*/
+    margin: 20px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
+    padding: 20px;/*gia na exei h eikona ligo gyrw gyrw perigramma*/
     border-radius: 10px;/*Stroggulopoiei to border*/
 }
 
 img {
-    max-width: 100%; /*gia na xwraei h eikona 100%*/
-    max-height: 100%; /*gia na xwraei h eikona 100%*/
+    max-width: 85%; /*gia na xwraei h eikona 100%*/
+    max-height: 85%; /*gia na xwraei h eikona 100%*/
     object-position: left;/*gia na einai h eikona sta aristera*/
     margin-right:20px; /*Dinei keno sto text me thn eikona*/
     border-radius: 10px;/*Stroggulopoiei to border*/
@@ -20,7 +20,13 @@ img {
 }
 
 p {
-    padding :6px;/*posh apostash exei apo ta headers*/
-    margin: 20px;
-    font-size:22px;
+    padding :3px;/*posh apostash exei apo ta headers*/
+    margin: 10px;
+    font-size:16px;
+    font-family:'Franklin Gothic Medium';
+    text-align:left;
+}
+
+h{
+   font-family:'Franklin Gothic Medium';
 }
