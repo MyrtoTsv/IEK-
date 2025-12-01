@@ -1,5 +1,10 @@
+@font-face{/*Auto einai gia to custom font family.*/
+  font-family:'OpenSans';/*custom grammatoseira*/
+  src:url(fonts/OpenSans-B9K8.ttf);
+}
+
 .product{
-    width:800px;/*to platos*/
+    width:900px;/*to platos*/
     height: 200px;/*to ipsos*/
     background-color:rgb(255, 255, 255); /* background xrwma sto div*/
     margin: 20px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
@@ -20,13 +25,12 @@ img {
 }
 
 p {
-    padding :3px;/*posh apostash exei apo ta headers*/
-    margin: 10px;
     font-size:16px;
-    font-family:'Franklin Gothic Medium';
     text-align:left;
+    font-family:'OpenSans';/*custom grammatoseira*/
 }
 
-h{
-   font-family:'Franklin Gothic Medium';
+h1,h2,h3{
+    font-family:'OpenSans';/*custom grammatoseira*/
 }
+
