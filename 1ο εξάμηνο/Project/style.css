@@ -26,6 +26,9 @@ img {
 
 .img_style_2{
     float:right; /*for the mini icon kart*/
+    max-width: 20%; /*gia na xwraei h eikona 100%*/
+    max-height: 20%; /*gia na xwraei h eikona 100%*/
+    object-position: bottom-right;/*gia na einai h eikona sta aristera*/
 }
 
 p {
@@ -37,5 +40,6 @@ p {
 h1,h2,h3{
     font-family:'OpenSans';/*custom grammatoseira*/
 }
+
 
 
