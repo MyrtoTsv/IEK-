@@ -24,6 +24,10 @@ img {
     float:left; /*Vazei thn eikona aristera apo to text*/
 }
 
+.img_style_2{
+    float:right; /*for the mini icon kart*/
+}
+
 p {
     font-size:16px;
     text-align:left;
@@ -33,4 +37,5 @@ p {
 h1,h2,h3{
     font-family:'OpenSans';/*custom grammatoseira*/
 }
+
 
