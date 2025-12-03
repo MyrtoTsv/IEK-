@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct {
+struct Car{
   int arithmos;
   int xrwma;
   int kataskeuasths;
@@ -64,5 +64,6 @@ int main (){
   system("PAUSE > nul");
   return 0;
 }
+
 
 
