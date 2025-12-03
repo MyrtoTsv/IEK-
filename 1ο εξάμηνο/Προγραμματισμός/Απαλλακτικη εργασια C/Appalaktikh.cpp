@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct {
+  int arithmos;
+  int xrwma;
+  int kataskeuasths;
+  int hmeromhnia
+};
+
 int main (){
     /*Declarations,Arxikopoihseis*/
 	int choice;
@@ -57,4 +64,5 @@ int main (){
   system("PAUSE > nul");
   return 0;
 }
+
 
