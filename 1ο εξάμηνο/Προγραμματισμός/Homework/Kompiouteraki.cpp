@@ -36,7 +36,28 @@ int main(){
 	
         flag = false;
     }    printf("Lathos symbolo prakshs!\n");
-    
+  // switch(praksh){
+	 // case'+':
+  //       result=num1+num2;
+  //       break;
+  //    case'-' :
+  //       result=num1-num2;
+  //       break;
+  //    case'*':
+  //       result=num1*num2;
+  //       break;
+  //    case'/':
+  //       if (num2==0) {
+  //        result =num1/num2;
+  //       }else{
+		
+  //           flag = false;
+  //           printf("Diaireis me to 0!\n");}
+  //       break;
+  //     default:
+  //       flag = false;
+  //       printf("Lathos symbolo prakshs!\n");
+        
 	if(flag==true)    
       printf("To apotelesma einai: %.2f\n",result);
     
@@ -45,3 +66,4 @@ int main(){
 	system("PAUSE");
 	return 0;
 }
+
