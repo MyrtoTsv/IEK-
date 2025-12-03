@@ -11,7 +11,9 @@ struct Car{
 int main (){
     /*Declarations,Arxikopoihseis*/
 	int choice;
-	
+    fp=fopen(Cars.txt);
+	fp=fopen(Companies.txt);
+	fp=fopen(BasicColors.txt);
 	/*Vasiko menu*/
 	printf("VASIKO MENOU\n");
 	printf("1.EMFANISH OLWN\n");
@@ -29,6 +31,7 @@ int main (){
 
 		case 1:
 			printf("Eisai sto 1\n");
+			printf("Stoixeia olwn ton autokinhtwn apo to Cars.txt\n");
 			break;
 		case 2:
 			printf("Eisai sto 2\n");
@@ -64,6 +67,7 @@ int main (){
   system("PAUSE > nul");
   return 0;
 }
+
 
 
 
