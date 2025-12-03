@@ -34,6 +34,12 @@ int main (){
 			break;
 		case 5:
 			printf("Eisai sto 5\n");
+			printf("MENOU ANAZHTHSHS\n");
+			printf("1.ME VASH TON ARITHMO\n");
+			printf("2.ME VASH TO XRWMA\n");
+			printf("3.ME VASH TON KATASKEUASTH\n");
+			printf("4.ME VASH THN HMEROMHNIA KATASKEUHS\n");
+			printf("0.EPISTROFH STO VASIKO MENOU\n");
 			break;
 		case 6:
 			printf("Eisai sto 6\n");
@@ -51,3 +57,4 @@ int main (){
   system("PAUSE > nul");
   return 0;
 }
+
