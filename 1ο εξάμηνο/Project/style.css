@@ -1,5 +1,10 @@
+@font-face{/*Auto einai gia to custom font family.*/
+  font-family:'OpenSans';/*custom grammatoseira*/
+  src:url(fonts/OpenSans-B9K8.ttf);
+}
+
 .product{
-    width:900px;/*to platos*/
+    width:1050px;/*to platos*/
     height: 200px;/*to ipsos*/
     background-color:rgb(255, 255, 255); /* background xrwma sto div*/
     margin: 20px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
@@ -21,9 +26,9 @@ img {
 
 .img_style_kart{
     float:right; /*for the mini icon kart*/
-    max-width: 15%; /*gia na xwraei h eikona 100%*/
-    max-height: 15%; /*gia na xwraei h eikona 100%*/
-    object-position: bottom-right;/*gia na einai h eikona sta aristera*/
+    max-width: 20%; /*gia na xwraei h eikona 100%*/
+    max-height: 20%; /*gia na xwraei h eikona 100%*/
+    object-position:right;/*gia na einai h eikona sta aristera*/
 }
 
 p {
