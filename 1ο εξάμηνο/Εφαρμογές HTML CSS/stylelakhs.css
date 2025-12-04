@@ -3,8 +3,8 @@
 }
 
 img{
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 15vw;/*Allazei h eikona logw autou.Alliws tha einai giati einai se pososta*/
+    max-height: 15vh;
     margin: auto;/*By default to margin auto einai kai sta duo akra*/
     display: block;/*Centers the image mazi me to margin auto.Blockarei oti mpei se auth thn grammh*/
 }
@@ -14,9 +14,40 @@ h1,h2{
     text-align:center;
 }
 
+/* Βασικό στυλ για όλα τα μεγέθη */
+
 p{
     font-size:18px;
     text-align: justify;
+    padding:10px;
+    background:#eee;
+}
+
+/* Κινητά: κάτω από 600px */
+@media (max-width: 600px) {
+  p {
+    font-size: 14px;
+    background: #d0eaff;
+  }
+}
+
+/* Tablet: 601px – 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  p {
+    font-size: 16px;
+    background: #ffe4c4;
+  }
+}
+/* Desktop: πάνω από 900px */
+@media (min-width: 901px) {
+  p {
+    font-size: 20px;
+    background: #e6ffe6;
+  }
+  img{
+    max-width: 25vw;
+    max-height: 25vh;
+  }
 }
 
 table{
