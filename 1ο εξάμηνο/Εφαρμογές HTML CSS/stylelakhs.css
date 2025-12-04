@@ -1,0 +1,34 @@
+*{
+   background-color:rgb(167, 202, 230);
+}
+
+img{
+    max-width: 15%;
+    max-height: 15%;
+    margin: auto;/*By default to margin auto einai kai sta duo akra*/
+    display: block;/*Centers the image mazi me to margin auto.Blockarei oti mpei se auth thn grammh*/
+}
+
+h1,h2{
+    color:rgb(100, 100, 192);
+    text-align:center;
+}
+
+p{
+    font-size:18px;
+    text-align: justify;
+}
+
+table{
+    border:1px solid rgb(129, 152, 195);/*border gyrw gyrw*/
+    border-collapse:collapse;/*den einai dipla ta perigrammata*/
+    width:550px;/*to platos*/
+    height:190px;/*to ipsos*/
+    text-align: center;
+    margin: auto;/*Vazei ton pinaka sthn mesh*/
+}
+
+td,th{
+     border:1px solid rgb(83, 157, 185);/*Gia na mpei se ola ta kelia*/
+     background-color:white;
+}
