@@ -1,0 +1,9 @@
+-Enas pinakas einai metavlhtes tou idiou eidous , pou einai omadopoihmenes se ena block ths ram
+-int array[10] ->Auto shmainei oti exoume ena array me 10 metavlhtes
+-Oi pinakes,  panta ksekinane apo to 0. Enas pinakas 10 thesewn , einai apo to 0 ews to 9.
+!!Einai ypoxrewtiko!!
+-H ram, einai ennoia , psaxnei na vrei enoia mnhmh , sunexomenh.
+mnhmh = RAM .Thn lene RAM. n sumenxh Memory Random aAcces, tuxaias prospelashs.Auto shmainei oti
+phgainei sthn tuxei ena software kai grafei panw ths.
+-int array[10] einai 1 dimension pinakas, monodiaststos.
+-Gia prospelash , xrhsimopoioume sunithws for giati exei sugkekrimeno ranged
