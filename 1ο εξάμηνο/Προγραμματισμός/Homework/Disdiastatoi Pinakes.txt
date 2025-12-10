@@ -1,0 +1,23 @@
+<<Prologos>>
+Exoun kai tis duo diastaseis . 2d Arrays
+Yparxoun grammes kai sthles .
+
+int array[2][3]; //tropos suntakshs
+to 2 panta dhlwnei tis grammaes rows(i)
+to 3 panta dhlwnei tis sthles column(j)
+
+sthles
+[0][1][2]
+[0]1 2 3 
+[1]4 5 6  
+Autos exei duo grammes kai duo sthles
+Panta grafoume prwta tis grammes kai meta tis thles
+
+px to 6 einai to array[1][2]=6;
+
+Gia na ton proslepasoume , kanoume 2 fors. Nested for
+for(i=0
+  for(j=0.....
+.
+.
+
