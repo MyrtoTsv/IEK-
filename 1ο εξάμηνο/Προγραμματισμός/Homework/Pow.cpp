@@ -3,7 +3,7 @@
 #include <math.h> //gia thn pow
 #include <unistd.h> // gia tis sleep kai usleep
 int main(){
-	int sum=0,min=pow(2,31)-1,max=-pow(2,31);
+	int sum=0,min=pow(2,31)-1,max=-pow(2,31); //vazoume ta oria sthn min max. Max - gia naeinai to pio mikro noumero pou uparxei kai min + na einai to pio megalo noumero pou uparxei
 	unsigned count = 0;
 	float avg,number;
 	
@@ -50,3 +50,4 @@ int main(){
 	return 0;
 	system("PAUSE");
 }
+
