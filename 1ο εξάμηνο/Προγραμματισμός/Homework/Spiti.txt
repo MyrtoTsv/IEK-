@@ -1,0 +1,12 @@
+Na grafei programma se glwssa C to opoio na zhtaei apo ton xrhsth na dwsei times se enan pinaka 10 akeraiwn
+kai h efarmogh na ypologizei , to megisto kai to elaxisto stoixeio kai na upologizei kai na ektupwnei
+ena deutero pinaka o poion na periexei ola ta stoixeia tou prwtou me thn idia seira xwris to min kai to max.
+Shmeiwsh:Estw oti to megisto kai to elaxisto , tha uparxoun mono mia fora mesa sto pinaka
+
+Ekshghsh:Paradeigma
+1 7 9 2 5 12 -1 0 33 4 a[10]
+ton ektupwnw
+vriksw min max -1 kai 33 max
+ta ektupwnw
+upologizw neo pinaka
+1 7 9 2 5 12 0 4 b[8] , size - 2
