@@ -4,8 +4,8 @@
 }
 
 .product{
-    width:1050px;/*to platos*/
-    height: 200px;/*to ipsos*/
+    width:70%;/*to platos*/
+    height:190px;/*to ipsos*/
     background-color:rgb(255, 255, 255); /* background xrwma sto div*/
     margin: 20px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
     padding: 20px;/*gia na exei h eikona ligo gyrw gyrw perigramma*/
@@ -31,21 +31,61 @@ img {
     object-position:right;/*gia na einai h eikona sta aristera*/
 }
 
-p {
-    font-size:16px;
+p {font-size:16px;
     text-align:left;
-    font-family:'OpenSans';/*custom grammatoseira*/
+    font-family:'OpenSans';}/*custom grammatoseira*/
+
+a{color:rgb(94, 90, 90);}
+
+/*a:hover{
+
+}*/
+
+h1,h2,h3{font-family:'OpenSans';}/*custom grammatoseira*/
+
+h1{font-size:27px;}
+h2{font-size:20px;}
+h3{font-size:140%;}
+
+footer{padding:0;
+       margin:0;}
+
+/*Responsive*/
+
+
+/* Κινητά: */
+@media (max-width: 620px) {
+   p { font-size: 10px;}
+
+   h1{font-size:18px;}
+
+   h2{font-size: 14px;}
+
+   h3{font-size:90%;}
+
+  img { max-width: 70%; 
+      max-height: 70%;}
+
+  .product{
+    height: 130px;
+  }
 }
+/*Tablet*/
+@media (min-width:621px) and (max-width:1000px){
+  p{ font-size:14px;}
 
-a{
-    color:rgb(94, 90, 90);
+  h1{font-size:20px;}
+
+  h2{font-size:17px;}
+
+  h3{font-size:120%;}
+
+  img{max-width: 75%;
+      max-height: 75%;}   
+
+  .product{
+    height: 170px;
+  } 
 }
-
-h1,h2,h3{
-    font-family:'OpenSans';/*custom grammatoseira*/
-}
-
-
-
 
 
