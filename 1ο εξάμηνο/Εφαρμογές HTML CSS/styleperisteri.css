@@ -1,0 +1,39 @@
+h1{text-align:center;}
+
+/*Oi genikoi kanones pou thekoume na exoun ola ta table*/
+table{
+    margin:auto;/*To vazei sto kentro ton pinaka*/
+    border:1px solid rgb(154, 155, 157);/*border gyrw gyrw*/
+    border-collapse:collapse;/*den einai dipla ta perigrammata*/
+    background-color: pink;
+    width:30%;/*to platos*/
+    min-height: 100px;
+    text-align: center;
+    margin-top: 25px; /*Apostash apo ton katw pinaka me ton panw pinaka */
+}
+
+/*Sta ids tha valw osa thelw na allazoun apo pinaka se pinaka*/
+/*Gia na katalavei oti einai id , vazoume #*/
+/*1os pinakas Trofh*/
+#id_Trofh td, #id_Trofh th{
+    background-color: pink;
+    border:1px solid rgb(154, 155, 157);/*border gyrw gyrw*/
+}
+
+/*2os pinakas Volta*/
+#id_Volta  td, #id_Volta th{ 
+    background-color:rgb(253, 253, 131);
+    border:1px solid rgb(154, 155, 157);/*border gyrw gyrw*/}
+
+img{
+    padding-top:6%;/*Apostash apo ton pinaka kai thn eikona apo panw*/
+    display:block;/*thn vazei sto kentro*/
+    margin:auto;/*thn vazei sto kentro*/
+    width:50%;
+    height:50%;
+}
+
+
+/*Klash shmainei olh h omada.Se mia klassh mporeis na valeis polla pragmata mesa
+ID shmainei mononadiko ,mia tautothta.Mporoume na kanoume alt se duo pinakes px
+na valoume diaforetika xrwmata, an tous valoume ids */
