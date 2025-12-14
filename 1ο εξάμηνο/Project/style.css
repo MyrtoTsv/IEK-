@@ -3,89 +3,117 @@
   src:url(fonts/OpenSans-B9K8.ttf);
 }
 
-.product{
-    width:70%;/*to platos*/
-    height:190px;/*to ipsos*/
-    background-color:rgb(255, 255, 255); /* background xrwma sto div*/
-    margin: 20px auto;/*15px einai to keno anamesa sta div.To auto einai gia einai ta div sto kentro*/
-    padding: 20px;/*gia na exei h eikona ligo gyrw gyrw perigramma*/
-    border-radius: 10px;/*Stroggulopoiei to border*/
+/*body*/
+
+/*grid*/
+.classGrid{
+ border-radius: 10px;/*Stroggulopoiei to border*/
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*responsive*/
+ gap: 20px;/*gap between them and its equal*/
+ max-width: 1000px;  /*makes grid smaller */
+ margin: 40px auto;  /*centers grid */
+
 }
 
-img {
-    max-width: 85%; /*gia na xwraei h eikona 100%*/
-    max-height: 85%; /*gia na xwraei h eikona 100%*/
-    object-position: left;/*gia na einai h eikona sta aristera*/
-    margin-right:20px; /*Dinei keno sto text me thn eikona*/
-    border-radius: 10px;/*Stroggulopoiei to border*/
+.classProduct {
+  border: 2px solid #b3b2b2;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-family:'OpenSans';/*custom grammatoseira*/
+  text-align: center;
 }
 
-.img_style{
-    float:left; /*Vazei thn eikona aristera apo to text*/
+.classImage {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;/*forces all images to be the same size*/
+    display:block;
+    margin:auto;
 }
 
-.img_style_kart{
-    float:right; /*for the mini icon kart*/
-    max-width: 20%; /*gia na xwraei h eikona 100%*/
-    max-height: 20%; /*gia na xwraei h eikona 100%*/
-    object-position:right;/*gia na einai h eikona sta aristera*/
+.classPrice {
+  font-size: 20px;
+  font-weight: bold;
+  display:block;
+  text-align: right;
 }
 
-p {font-size:16px;
-    text-align:left;
-    font-family:'OpenSans';}/*custom grammatoseira*/
+.classProduct h2 {
+  font-size: 18px;
+}
+
+.classProduct p  {
+  font-size: 14px;
+}
+
+h1{
+  font-family:'OpenSans';/*custom grammatoseira*/
+}
 
 a{color:rgb(94, 90, 90);}
 
-/*a:hover{
-
-}*/
-
-h1,h2,h3{font-family:'OpenSans';}/*custom grammatoseira*/
-
-h1{font-size:27px;}
-h2{font-size:20px;}
-h3{font-size:140%;}
-
-footer{padding:0;
-       margin:0;}
-
-/*Responsive*/
-
-
-/* Κινητά: */
-@media (max-width: 620px) {
-   p { font-size: 10px;}
-
-   h1{font-size:18px;}
-
-   h2{font-size: 14px;}
-
-   h3{font-size:90%;}
-
-  img { max-width: 70%; 
-      max-height: 70%;}
-
-  .product{
-    height: 130px;
-  }
+a:hover{
+  color:black;
 }
-/*Tablet*/
-@media (min-width:621px) and (max-width:1000px){
-  p{ font-size:14px;}
+
+/*Κινητα responsive εως 620px. 1 row*/
+@media (max-width: 620px) {
 
   h1{font-size:20px;}
 
-  h2{font-size:17px;}
+  p{font-size:12px;}
 
-  h3{font-size:120%;}
+  .classGrid {
+    max-width: 90%;
+    gap: 12px;
+  }
 
-  img{max-width: 75%;
-      max-height: 75%;}   
+  .classImage {
+    height: 140px;
+  }
 
-  .product{
-    height: 170px;
-  } 
+  .classProduct h2 {
+    font-size: 15px;
+  }
+
+  .classProduct p {
+    font-size: 12px;
+  }
+
+  .classPrice {
+    font-size: 16px;
+  }
 }
 
+/*Tablet 621px-1000px , 2 rows*/
+@media (min-width: 621px) and (max-width: 1000px) {
 
+  h1{font-size:24px;}
+
+  p{font-size:15px;}
+
+  .classGrid {
+    max-width: 90%;
+    gap: 14px;
+  }
+
+  .classImage {
+    height: 160px;
+  }
+
+  .classProduct h2 {
+    font-size: 16px;
+  }
+
+  .classPrice {
+    font-size: 18px;
+  }
+}
+
+ footer{
+  padding:0;
+  margin:0;
+  font-size:18px;
+ }
