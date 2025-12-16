@@ -10,3 +10,58 @@ vriksw min max -1 kai 33 max
 ta ektupwnw
 upologizw neo pinaka
 1 7 9 2 5 12 0 4 b[8] , size - 2
+
+#include <stdio.h>
+#include <stdlib.h>
+#define SIZE 10
+int main(){
+	
+	int array[SIZE],max,min,new_array[SIZE-2],i,j=0;
+	
+	//Stoixeia tou pinaka
+	for (i=0; i<SIZE; i++){
+		printf("Dwse to %d tou pinaka\n",i+1);
+		scanf("%d",&array[i]);
+	}
+    
+    //Ektupwsh tou 1ou pinaka
+    printf("O PINAKAS array[%d]\n-------------------------------\n",SIZE);
+	for(i=0; i<SIZE; i++){
+		printf("%d\t",array[i]);
+	}
+	
+	printf("\n");
+	//min max tou prwtou pinaka
+	min=max=array[0];
+	
+	  for(i=0; i<SIZE; i++)
+	{
+	 
+    	if (array[i]>max)
+    	
+         	max=array[i];
+	    
+	    
+		if(array[i]<min)
+		
+			min=array[i];
+   }
+	
+   //Deuteros pinakas xwris min max 
+   for(i=0; i<SIZE; i++){
+   	 
+   	 if (array[i]!=max && array[i]!=min){
+   	 	    new_array[j]=array[i];
+   	 	    j++;
+		}
+   }
+   
+    //Ektupwsh tou 2ou pinaka
+    printf("O PINAKAS new array[%d]\n-------------------------------\n",SIZE-2);
+	for(i=0; i<SIZE-2; i++){
+		printf("%d\t",new_array[i]);
+	}
+   
+  system("PAUSE");
+  return 0;
+}
