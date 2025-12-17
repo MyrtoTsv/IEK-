@@ -1,0 +1,10 @@
+Credentials : Login sto username kai password.
+Diadikasia . Mpainei me ta stoxeia kai tou kanei verify an einai swsta h oxi
+
+Na grafei programma se glwssa C to opoio na ulopoiei to login session sto Instagram.Pio sugkekrimena
+tha uparxoun apothikeumena mesa ston kwdika to swsto username kai to swsto password enos xrhsth tou Instagram
+(Parathrhsh:Otan leme apothikeumena , ennoume char username[STR_SIZE]='...' char password[STR_SIZE]='...')
+H efarmogh sas tha dinei treis eukairies ston xrhsth (strcmp) na eisagei to swsto username kai password.
+An to dwsei swsta , tha dei to munhma "Welcome to Instagram" (s1=s2)
+An kanei lathos , tha dei to katallhlo munhma gia na ksanaprospathiseimono 3 fores (s1<s2 , s1>s2)
+An kanei kai tis treis fores lathos , h efarmogh tha enhmerwnei ton xrhsth oti to account kleidwthike kai stalthike SMS ston pragmatiko dikaiouxo.
