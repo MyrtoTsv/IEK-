@@ -1,0 +1,10 @@
+table, th, td {
+    border:2px solid rgb(118, 118, 118);
+    font-size:20px;
+    width:50%;
+    text-align:center;
+    border-collapse:collapse;
+    padding:10px;
+}
+
+ 
