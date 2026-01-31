@@ -1,0 +1,49 @@
+
+#include <stdio.h>
+#include <math.h>
+
+#define SIZE 10
+
+float mesosoros(float array[]);
+float apoklish(float array[], float mo);
+
+int main() {
+    float array[SIZE];
+    float mo, apo;
+    int i;
+
+    for (i = 0; i < SIZE; i++) {
+        printf("Dwse stoixeio %d: ", i);
+        scanf("%f", &array[i]);
+    }
+
+    mo = mesosoros(array);
+    apo = apoklish(array, mo);
+
+    printf("Mesos oros: %.2f\n", mo);
+    printf("Typiki apoklish: %.2f\n", apo);
+
+    return 0;
+}
+
+float mesosoros(float array[]) {
+    float sum = 0;
+    int i;
+
+    for (i = 0; i < SIZE; i++) {
+        sum += array[i];
+    }
+
+    return sum / SIZE;
+}
+
+float apoklish(float array[], float mo) {
+    float sum = 0;
+    int i;
+
+    for (i = 0; i < SIZE; i++) {
+        sum += pow(array[i] - mo, 2);
+    }
+
+    return sqrt(sum / SIZE);
+}
