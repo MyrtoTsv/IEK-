@@ -41,8 +41,16 @@
        
        #edw vazoume to name='..'
        $cc = htmlspecialchars($_POST['cc']);
+       
+       if($cc <=1000){
+        $cost=170;
+       }else if($cc>1000 && $cc<2000){
+        $cost=230;
+       }else {
+        $cost=350;
+       }
 
-       echo "Ta kuvika einai $cc";
+       echo "Tha plhlwrsei analoga me ta kuvika $cc , $cost euro";
     }
   ?>
 </body>
