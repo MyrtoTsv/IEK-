@@ -13,13 +13,16 @@
     #An deis oti exei sumplhrwthei h forma , na exei erthei kati me post
     if($_SERVER["REQUEST_METHOD"] == "POST"){
        #twra tha paroume to onoma kai tha to emfanisoume
-       $name = $_POST['name']; #giati $_POST giati sthn html xrhsimopooiei thn methodo POST
+       #$name = $_POST['name']; #giati $_POST giati sthn html xrhsimopooiei thn methodo POST
+       #kianourios tropos gia protection
+       $name = htmlspecialchars($_POST['name']); #htmlspecialchars gia na mhn epithithomaste apo scripts
        #'name' giati sthn html leei << name="name" >>
        #twra tha typwsoume thn metavlhth
        echo "To onoma sas einai $name <br>";
       
        #gia to email
-       $email = $_POST['email'];
+       #$email = $_POST['email'];
+       $email = htmlspecialchars($_POST['email']);
        echo "To email sas einai $email";
     }
   ?>
