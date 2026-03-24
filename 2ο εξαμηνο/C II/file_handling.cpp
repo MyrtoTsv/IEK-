@@ -4,7 +4,7 @@
 
 int main()
 {
-system("CHCP 1253 > nul");  //για τα Ελληνικά.
+system("CHCP 1253 > nul");  //Γ£Γ©Γ΅ Γ΄Γ΅ Γ…Γ«Γ«Γ§Γ­Γ©ΓªΓ.
  
 
 FILE *text_file;
@@ -16,7 +16,7 @@ text_file = fopen("Harley.txt", "r");
 
 if(!text_file)
 {
-printf("Δεν υπάρχει .txt αρχείο!\n");
+printf("Γ„Γ¥Γ­ ΓµΓ°ΓΓ±Γ·Γ¥Γ© .txt Γ΅Γ±Γ·Γ¥ΓΓ―!\n");
 exit(1); //return 1;
 }
 else
