@@ -134,7 +134,7 @@ int position = -1;
 //DATA INPUT
 for (i=0; i<SIZE; i++)
 {
-printf("Εισάγετε το στοιχείο  [%d] τού πίνακα: ", i+1);
+printf("Γ…Γ©Γ³ΓΓ£Γ¥Γ΄Γ¥ Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ―  [%d] Γ΄Γ―Γ½ Γ°ΓΓ­Γ΅ΓªΓ΅: ", i+1);
 scanf("%f", &matrix[i]);
 }
 system("CLS");
@@ -151,7 +151,7 @@ quickSortArray(matrix, 0, SIZE-1);
 printArray(matrix, SIZE, "SORTED ARRAY\n----------------");
  
 
-printf("\n\nΠοιο στοιχείο ψάχνεις μέσα στον πίνακα; ");
+printf("\n\nΓΓ―Γ©Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― ΓΈΓΓ·Γ­Γ¥Γ©Γ² Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅; ");
 scanf("%f", &element);
  
 
@@ -160,9 +160,9 @@ position = binarySearchArray(matrix, SIZE, element);
  
 
 if(position == -1)
-printf("\nΤο στοιχείο %.2f δεν υπάρχει στον πίνακα.\n", element);
+printf("\nΓ”Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― %.2f Γ¤Γ¥Γ­ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅.\n", element);
 else
-printf("\nΤο στοιχείο %.2f υπάρχει στον πίνακα στη θέση %d.\n", element, position);
+printf("\nΓ”Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― %.2f ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ³Γ΄Γ§ Γ¨ΓΓ³Γ§ %d.\n", element, position);
  
 
 printf("\n\n");
