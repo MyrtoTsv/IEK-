@@ -3,14 +3,14 @@
 
 int main()
 {
-	system("CHCP 1253 > nul"); //για τα Ελληνικά.
+	system("CHCP 1253 > nul"); //Γ£Γ©Γ΅ Γ΄Γ΅ Γ…Γ«Γ«Γ§Γ­Γ©ΓªΓ.
 	
 	FILE *text_file;
 	float x, y, sum, diff, max, temp_sum, temp_diff;          
 	
-	printf("Δώσε τον 1ο αριθμό: ");
+	printf("Γ„ΕΓ³Γ¥ Γ΄Γ―Γ­ 1Γ― Γ΅Γ±Γ©Γ¨Γ¬ΓΌ: ");
 	scanf("%f", &x);
-	printf("Δώσε τον 2ο αριθμό: ");
+	printf("Γ„ΕΓ³Γ¥ Γ΄Γ―Γ­ 2Γ― Γ΅Γ±Γ©Γ¨Γ¬ΓΌ: ");
 	scanf("%f", &y);
 	
 	sum = x + y;
