@@ -7,9 +7,9 @@
 </head>
 <body>
     <ul id = "mylist"> <!-- Δινουμε ενα id στην λιστα μας για να το χρησιμποιησουμε με την getElementById-->
-        <li>Μήλο</li>
-        <li>Πορτοκάλι</li>
-        <li>Βερύκοκο</li>
+        <li onclick = "drawLine(this)">Μήλο</li> <!--Με το this ,αναφερεται στον εαυτο της , στο ιδιο το στοιχειο.Οταν χρησιμοποιουμε το this,αναφερομαι στην συγκεκριμενη ετικετα-->
+        <li onclick = "drawLine(this)">Πορτοκάλι</li>
+        <li onclick = "drawLine(this)">Βερύκοκο</li>
     </ul>
 
     <button onclick="addThing()">Προσθήκη</button> <button onclick="delThing()">Διαγραφή</button> <!--onclick ειναι εvent και σημαινει οτι οταν πατησω το κουμπι , θα καλεστει η συναρτησει addThing-->
@@ -31,10 +31,12 @@
         }
 
         function delThing(){
-
             const del = document.querySelector("li"); //σβήνει το πρώτο στοιχείο
             del.remove();
-           
+        }
+
+        function drawLine(li){ 
+         li.style.textDecoration = "line-through"; //Αντι να βαλουμε text-decoration ,στην js βαζουμε textDecoration ,απαγορευεται η -
         }
     </script>
 </body>
