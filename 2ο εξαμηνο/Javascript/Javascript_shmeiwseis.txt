@@ -1,0 +1,37 @@
+to DOM einai to dentraki , etiketwn
+
+AppendChild shmainei na prosthesei ena paidi.An exoume an poume to body kai kanoume appendChild , tha to valei sto telos tou body(diafaneia 3)
+Prosthetei mia kainouria etiketa se mia allh etiketa.
+Suntaksh: goniko stoixeio.appendChild(stoixeio paidi).Prosthetei sto goniko stoixeio ena stoixeio paidi
+Vazoume mono ena stoixeio kathe fora , kai an uparxei hdh , tha to metakinhsei
+
+document.createElement() :Dhmiourgoume ena stoixeio , opoio thelw apo thn HTML 
+h create element , den to emfanizei , mexri na prostethei me thn appendChild().Apo mono tou den tha to deiksei
+
+paragraph.textContent = "Geia sou kosme" (h paragraph edw einai to goniko stoixeio)
+Kathe stoixeio thw HTML , h jvs thas ftiaxnei ena antikeimeno. Ena apo ta pio hmantika einai to .textContent (allazoume to keimeno pou tha exei mia etiketa mesa.Agnoei etiketes)
+                                                                                                .innerHTML(allazoume to keimeno pou tha exei mia etiketa mesa.Emfanizei etiketes)
+                                                                                                .style(to classic style ths css)
+
+ x = document.getElementById() ->Dinw to id tou stoixeiou pou thelw na ferw apo thn selida.To vazw sunithws se kapoia metavlhth
+ Kapoia stoixeia sthn HTML den xreiazetai na ta kanoume getElementById() giati einai monadika .San to body px , tha to valoume b = document.body
+
+ H document thn vazoume giati ekei ousiastika grafoume ta panta , opote vazoume document.(kai meta oti theloume).Afou to grapsoume sto document meta kanoume oti theloume
+
+Paradeigma:
+ const li = document.createElement("li"); (ftiaxnw ena stoixeio listas li . TO apothikeuoume se mia metavlhth stathera li)
+ li.textContent="Mhlo" (deinei sto li to periexomeno "Mhlo")
+ document.querySelector("ul").appendChild(li) ->Sto ul , vale sto telos to Mhlo
+
+ *querySelector() -> kanei to idio me thn getByElementId , alla den einai me vash to ID , mporoume na tou valoume oti theloume ,etiketes, claseeis , etc. Px edw einai 
+
+ Remove: (stoixeio apo to DOM)
+ stoixeio.remove();
+ Gia na afairesoume ena stoixeio , prepei prwta na to entopisoume , dhladh me thn questSelector px
+ const paragraph = document.query.Selecotr("p");
+ paragraph.remove();
+
+ PX:const item = document.querySelector("li"); (Edw vrisoume to li kai to apothikeuoume sto item)
+ item.remove();
+
+ !!H querySelector fernei patna to prwto
