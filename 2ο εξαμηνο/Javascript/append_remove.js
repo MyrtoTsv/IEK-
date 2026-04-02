@@ -14,14 +14,17 @@
 
     <button onclick="addThing()">Προσθήκη</button> <button onclick="delThing()">Διαγραφή</button> <!--onclick ειναι εvent και σημαινει οτι οταν πατησω το κουμπι , θα καλεστει η συναρτησει addThing-->
     <!--Οταν θα παταμε το κουμπι , θελουμε να μπαινει ενα νεο στοιχειο-->
-    <!--Θα φτιαξουμε πρωτα την συναρτηση που θα περιεχει το κουμπι -->
+    <input id ="box" type ="text">
 
+    <!--Θα φτιαξουμε πρωτα την συναρτηση που θα περιεχει το κουμπι -->
     <!--Μεσα στο script γραφουμε στον κωδικα jvs -->
     <script>
 
           function addThing(){
             li = document.createElement("li"); //αποθηκευουμε το στοιχειο που δημιουργησαμε στην li
-            li.textContent = "Νέο Στοιχείο"; //αλλαζω το κειμενο μιας ετικετας με την textContent
+            //Τωρα θελουμε να παρουμε τι εχει το κουτι text.Για να το κανουμε αυτο πρεπει να το παρουμε πρωτα 
+            new_input = document.querySelector("#box"); //το αποθηκευσαμε σε καινουρια μεταβλητη new_input
+            li.textContent = new_input.value; //το textContent αυτου του στοιχειου θα ειναι η τιμη του text
             //Δεν αρκει που εχουμε κανει createElement ,πρεπει να το κανουμε append για να εμφανιστει
             ul = document.getElementById("mylist");
             ul.appendChild(li);//
