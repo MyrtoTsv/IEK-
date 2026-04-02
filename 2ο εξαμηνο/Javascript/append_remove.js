@@ -11,19 +11,27 @@
         <li>Πορτοκάλι</li>
         <li>Βερύκοκο</li>
     </ul>
-    
-    <button onclick="addThing()">Προσθήκη</button> <button>Διαγραφή</button> <!--onclick ειναι εvent και σημαινει οτι οταν πατησω το κουμπι , θα καλεστει η συναρτησει addThing-->
+
+    <button onclick="addThing()">Προσθήκη</button> <button onclick="delThing()">Διαγραφή</button> <!--onclick ειναι εvent και σημαινει οτι οταν πατησω το κουμπι , θα καλεστει η συναρτησει addThing-->
     <!--Οταν θα παταμε το κουμπι , θελουμε να μπαινει ενα νεο στοιχειο-->
     <!--Θα φτιαξουμε πρωτα την συναρτηση που θα περιεχει το κουμπι -->
 
     <!--Μεσα στο script γραφουμε στον κωδικα jvs -->
     <script>
-        function addThing(){
+
+          function addThing(){
             li = document.createElement("li"); //αποθηκευουμε το στοιχειο που δημιουργησαμε στην li
             li.textContent = "Νέο Στοιχείο"; //αλλαζω το κειμενο μιας ετικετας με την textContent
             //Δεν αρκει που εχουμε κανει createElement ,πρεπει να το κανουμε append για να εμφανιστει
             ul = document.getElementById("mylist");
             ul.appendChild(li);//
+        }
+
+        function delThing(){
+
+            const del = document.querySelector("li"); //σβήνει το πρώτο στοιχείο
+            del.remove();
+           
         }
     </script>
 </body>
