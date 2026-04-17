@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Άσκηση 3</title>
+</head>
+<body>
+     <label for="pizza">Υλικά πίτσας:</label>
+      <br>
+        <select id="pizza" name="pizza">
+			<option value="cheese" onclick="addElement()">Τυρί</option>
+			<option value="peperoni" onclick="addElement()">Πεπερόνι</option>
+			<option value="pepper" onclick="addElement()">Πιπεριά</option>
+            <option value="olives" onclick="addElement()">Ελιές</option>
+            <option value="tomato" onclick="addElement()">Ντομάτα</option>
+            <option value="mushrooms" onclick="addElement()">Μανιτάρια</option> 
+		</select>
+     <br>
+    <button onclick="addElement()">Προσθήκη</button>
+
+    <ul id="elementsList"></ul>
+
+        <script>
+
+         function addElement(){
+           li = document.createElement("li");
+           
+           li.innerText = document.getElementById("pizza").value;
+
+           document.getElementById("elementsList").appendChild(li);
+
+         }
+
+        </script>
+</body>
+</html>

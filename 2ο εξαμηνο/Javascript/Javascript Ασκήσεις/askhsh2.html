@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Άσκηση 2</title>
+</head>
+<body>
+
+    <form>
+        <h2>Επιλέξτε Χρώμα:</h2>
+        <!--Οταν θα επιλέξει το χρώμα,θα αλλάξει το background color-->
+        <input type="color" id="colorID" onchange="changeBackground()">
+    </form>
+
+    <script>
+        function changeBackground() {
+           //Βρίσκουμε το colorID που περιέχει το input color
+           let selector = document.getElementById("colorID");
+           //Παίρνουμε την τιμή του inputcolor(#000FF , ο κωδικός του χρώματος)
+           let color = selector.value;
+           //αφου το αποθηκευσαμε στην color το input color, αλλαξε το φοντο με βαση το color
+           document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>

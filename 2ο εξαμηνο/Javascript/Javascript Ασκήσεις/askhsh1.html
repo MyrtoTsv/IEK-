@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Άσκηση 1</title>
+</head>
+<body>
+
+    <form>
+        <h2>Επιλέξτε Χρώμα:</h2>
+        <!--Οταν θα παταμε το κουμπι , θα αλλαζει το background color-->
+        <button type="button" onclick="changeBackground('red')">Red</button>
+        <button type="button" onclick="changeBackground('green')">Green</button>
+        <button type="button" onclick="changeBackground('blue')">Blue</button>
+    </form>
+
+    <script>
+        function changeBackground(color) {
+           //αλλαζει το background color αναλογως το color θα το βαλουμε
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>
