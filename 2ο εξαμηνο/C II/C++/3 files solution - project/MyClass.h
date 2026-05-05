@@ -22,7 +22,7 @@
 	    //1.to onoma tou constructor , prepei upoxrewtika na einai to idio onoma me thn klash
         //2.o constructor prepei na einai void , na mhn epistrefei tipota, den exei pote o constructor return type
         //Ton constructor , den mporw na ton kalesw sthn main , "kaleitai" mono otan ftiaxnw antikeimena
-				MyClass(); //costructor , o dikos mas
+				MyClass(); //default constructor
 				void setName(string);
 				void setValue(int);
 				void setAll(string, int);
