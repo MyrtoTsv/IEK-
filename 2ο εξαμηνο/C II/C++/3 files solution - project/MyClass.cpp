@@ -6,8 +6,7 @@ using namespace std;
 //constructor
 MyClass::MyClass()
 {
-	name = "NULL";
-	value = 0;
+	setAll("NULL",0); //anti na kaloume poses setters, vazoume thn setAll
 }
 
 // void MyClass::setName(string temp)
