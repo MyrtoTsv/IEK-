@@ -10,11 +10,18 @@
 	#define MYCLASS_H
 		class MyClass
 		{
+          //private kanoume ta attributes
 			private:
 				string name;
 				int value;
-			
+		 //public kanoume tis methodous
 			public:
+		//Yparxoun 7 anti 6 methodoi,h 7h einai h methodos tou contructor pou einai by default kai einia aorath auth thn stigmh
+		//H method tou constructor , gennaei mesa sthn Ram , ena antikeimeno, to kanei construct , dhmiourghma
+		//H c++ xrhsimopoiei ton diko ths ton constructor, to default.
+	    //1.to onoma tou constructor , prepei upoxrewtika na einai to idio onoma me thn klash
+        //2.o constructor prepei na einai void , na mhn epistrefei tipota, den exei pote o constructor return type
+				MyClass(); //constructor o default.
 				void setName(string);
 				void setValue(int);
 				void setAll(string, int);
