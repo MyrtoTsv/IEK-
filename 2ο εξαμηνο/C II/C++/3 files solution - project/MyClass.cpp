@@ -3,6 +3,13 @@ using namespace std;
 
 #include "MyClass.h"
 
+//constructor
+MyClass::MyClass()
+{
+	name = "NULL";
+	value = 0;
+}
+
 // void MyClass::setName(string temp)
 // {
 // 	name=temp;
