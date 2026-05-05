@@ -9,6 +9,12 @@ MyClass::MyClass()
 	setAll("NULL",0); //anti na kaloume poses setters, vazoume thn setAll
 }
 
+//custom constructor
+MyClass::MyClass(string name, int value)
+{
+	setAll(name,value); //anti na kaloume poses setters, vazoume thn setAll
+}
+
 // void MyClass::setName(string temp)
 // {
 // 	name=temp;
