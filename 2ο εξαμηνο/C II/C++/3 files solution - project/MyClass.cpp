@@ -3,7 +3,7 @@ using namespace std;
 
 #include "MyClass.h"
 
-//constructor
+//deafault constructor
 MyClass::MyClass()
 {
 	setAll("NULL",0); //anti na kaloume poses setters, vazoume thn setAll
