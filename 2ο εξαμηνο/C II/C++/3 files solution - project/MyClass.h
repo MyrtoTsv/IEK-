@@ -1,3 +1,4 @@
+//to MyClass.h einai san na leme to "interface" sthn java
 //ifndef: if not already defined , ama den einai hdh dhlwmeno.Auth einai entolh tou preprossecor,(#) oxi tou compiler
 //To vazoume se ifendif giati , meta apo to prwto object , tha paei na kanei sunexeia anllagh diavasmatos tou header kai ths classhs
 //Ara , gia na mhn ginetai auto , na uparxei lag, ousiastika to header tha to kanoume wrap me ena ifendif
