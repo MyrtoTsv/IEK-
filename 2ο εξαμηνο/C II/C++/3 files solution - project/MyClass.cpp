@@ -3,20 +3,31 @@ using namespace std;
 
 #include "MyClass.h"
 
-void MyClass::setName(string temp)
+// void MyClass::setName(string temp)
+// {
+// 	name=temp;
+// }
+
+//Allazoume ta temp me ta pragmataika onomata gia na einai pio sunnenohshma
+//To this mas voithaei na deiksoume oti auto to name , this.name theloume na einai to private name
+//To private name , na ginei oso to proswrino
+
+//To this , sunithws einai stous setters.Stous getters den xreiazetai , giati thn getter exei mono mia name , thn private
+//Oi setters epidh exoun duo name
+void MyClass::setName(string name)
 {
-	name=temp;
+	this->name = name;
 }
 
-void MyClass::setValue(int temp)
+void MyClass::setValue(int value)
 {
-	value=temp;
+	this->value = value;
 }
 
-void MyClass::setAll(string temp1, int temp2)
+void MyClass::setAll(string name, int value)
 {
-	setName(temp1);
-	setValue(temp2);
+	setName(name);
+	setValue(value);
 }
 
 string MyClass::getName() const
