@@ -24,6 +24,6 @@
 				int getAttack() const;
 				int getRange() const;
 				int getDefense() const;
-				void print();
+				void print() const;
 		};
 #endif
