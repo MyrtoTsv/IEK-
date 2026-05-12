@@ -2,6 +2,8 @@
 	#define VEHICLE_H
 	#include <iostream>
 	#include <string>
+	using namespace std;
+
 		class Vehicle()
 		{
 			private:
