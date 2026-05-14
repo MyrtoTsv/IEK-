@@ -188,10 +188,9 @@
         }
 
 
+  
 
-
-        function addBasket(item,p){
-
+         function addBasket(item,p){
    //to has ,elegxei an to exei hdh
             if(cart.has(item)==true){                                                //AN YPARXEI IDI
             //an to exei, get,pare olo to antikeimeno ,olo auto pou exei mesa , kai aukshse to kata 1
@@ -219,6 +218,9 @@
             table.remove();
 
             table = document.createElement("table");
+
+            
+
             table.id = "basketTable";
             cart.forEach((value, key)=>{
                 let tr = document.createElement("tr");
@@ -236,9 +238,8 @@
                 tr.appendChild(td);
                 table.appendChild(tr);
             });
-
-            div = document.getElementById("basket");
-            div.appendChild(table);
+            //Sta javascript ,to map einai array , alla anti gia times , kanoume prospelash antikeimena
+            //Oute einai se seiriakh seira
             //Sta map , otan leme value, ennoume ta attributes.
             //ypologismos kostous
             //to value einai oi times sto "keli" , to key einai to onoma
@@ -247,7 +248,18 @@
                 //ypologismos total
                 total = total + value.price *value.quantity; //value. , giati einai ena oloklhro antikeimno.Teleia giati exei parapanw apo ena attribute
 
-        });
+            });
+        //Extra grammh tou pinaka gia na deinxei to price
+            tr=document.createElement("tr");
+            td=document.createElement("td");
+            td.textContent=total.toFixed(2); //.toFixed(2) einai san na leme %.2f
+            //prepei na kanoume append gia na emfanistoun
+            tr.appendChild(td);
+            table.appendChild(tr);//twra mpainei ston pinaka
+
+            div = document.getElementById("basket");
+            div.appendChild(table);
+        }
 
 
 
