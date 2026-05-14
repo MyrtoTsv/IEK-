@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+
+        #basket{  display: none;
+                  position: fixed;
+                  right:20px;
+                  top:80px;
+                  width:300px;
+                  background: #fff;
+                  border: 1px solid #ccc;
+                  padding: 10px;
+                  box-shadow: 0 0 10px;
+
+        }
+
+        #basketToggle{  position:fixed;
+                        right:20px;
+                        top:20px;
+                        width:50px;
+                       
+        }
+
+        table,th,td {  border: 2px solid black;
+                       border-collapse: collapse;
+                       padding: 10px;
+                   
+        }
+      
+    </style>
+</head>
+<body>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Add Button</th>
+            </tr>
+            <tr> 
+                <td>Apple</td>
+                <td>3.99</td>
+                <td><button onclick="addBasket('Apple',3.99)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>4.99</td>
+                <td><button  onclick="addBasket('Banana',4.99)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Pineapple</td>
+                <td>9.99</td>
+                <td><button  onclick="addBasket('Pineapple',9.99)">Add</button></td>
+            </tr>
+        </table>
+
+    <img src="basket.png" id="basketToggle" onclick="Togglebasket()">
+
+    <div id="basket">
+        <table id="basketTable">
+            <tr>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <script>
+
+         let cart = new Map();
+
+        
+
+
+
+
+
+
+        function Togglebasket(){
+           var x = document.getElementById("basket");
+            if (x.style.display == "none" )
+                 x.style.display = "block";
+            else
+                x.style.display = "none";
+            
+        }
+
+
+        function addBasket(item,price){
+           let table = document.querySelector("#basketTable");
+           let tr = document.createElement("tr");
+           let tdi = document.createElement("td");
+           tdi.textContent = item;  
+           let tdq = document.createElement("td");
+           tdq.textContent = 1;
+           let tdp = document.createElement("td");
+           tdp.textContent = price;
+            
+           tr.appendChild(tdi);
+           tr.appendChild(tdq);
+           tr.appendChild(tdp);
+
+           table.appendChild(tr);
+
+
+
+            
+            if(cart.has(item)==true){                                                //AN YPARXEI IDI
+                let posotita = cart.get(item);
+                cart.set(item, posotita + 1);
+            }
+            else{
+                cart.set(item,1);
+            }
+
+
+             reloadCart();
+            
+        }
+
+        function reloadCart(){                                                       // KATASTREFH TON PINAKA STO KALA8I
+            let table = document.getElementById("basketTable");
+            table.remove();
+            table = document.createElement("table");
+            table.id = "basketTable";                                   // SOS GIA NA DOULEVEI 3ANA KAI 3ANA
+            cart.forEach((value,key) => {
+                let tr = document.createElement("tr");               
+                let td = document.createElement("td");
+                td.textContent = key;
+                tr.appendChild(td);
+                td = document.createElement("td");
+                td.textContent = value.quantity;
+                tr.appendChild(td);
+                table.appendChild(tr);
+                td = document.createElement("td");
+                td.textContent = value.price;
+            });
+            div = document.getElementById("basket");
+            div.appendChild(table);
+        }
+
+        
+
+    </script>
+</body>
+</html>
