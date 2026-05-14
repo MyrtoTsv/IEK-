@@ -192,13 +192,17 @@
 
         function addBasket(item,p){
 
-   
+   //to has ,elegxei an to exei hdh
             if(cart.has(item)==true){                                                //AN YPARXEI IDI
-
-                cart.get(item).quantity += 1;
+            //an to exei, get,pare olo to antikeimeno ,olo auto pou exei mesa , kai aukshse to kata 1
+                cart.get(item).quantity += 1; //let fruit = cart.get(item);
+                                              //fruit.quantity +=1;
 
             }
             else{
+                //dhmiourgei twra , ena antikeimeno sto map , me to set.Kia to prosthetei me to
+                //quantity kai price
+                              //pedio ,timh
                 cart.set(item,{quantity:1, price:p});
             }
 
