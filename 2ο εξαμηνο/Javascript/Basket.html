@@ -203,6 +203,7 @@
                 //dhmiourgei twra , ena antikeimeno sto map , me to set.Kia to prosthetei me to
                 //quantity kai price
                               //pedio ,timh
+                //edw leme oti ekshgoume sthn js oti kathe stoixeio tou cart tha exei value kai price
                 cart.set(item,{quantity:1, price:p});
             }
 
@@ -238,8 +239,15 @@
 
             div = document.getElementById("basket");
             div.appendChild(table);
+            //Sta map , otan leme value, ennoume ta attributes.
+            //ypologismos kostous
+            //to value einai oi times sto "keli" , to key einai to onoma
+            let total = 0;
+            cart.forEach((value,key)=>{ //auto einai loopa
+                //ypologismos total
+                total = total + value.price *value.quantity; //value. , giati einai ena oloklhro antikeimno.Teleia giati exei parapanw apo ena attribute
 
-        }
+        });
 
 
 
