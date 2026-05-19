@@ -18,7 +18,7 @@ int main()
 	cout<<i <<" "<<j <<endl;
 	
 	cout<<"NEES TIMES INTEGERS:";
-	myTemplate(&i, &j); //INTEGERS SWAP
+	mySwap(&i, &j); //INTEGERS SWAP
 	cout<<i <<" "<<j <<endl;
 	
 	cout<<"\n";
@@ -26,7 +26,7 @@ int main()
 	
 	cout<<"ARXIKES TIMES STRINGS:";
 	cout<<name1 <<" "<<name2 <<endl;
-	myTemplate(&name1, &name2); //STRINGS SWAP
+	mySwap(&name1, &name2); //STRINGS SWAP
 	cout<<"NEES TIMES STRINGS:";
 	cout<<name1 <<" " <<name2 <<endl;
 	
@@ -35,15 +35,28 @@ int main()
 	
 	cout<<"ARXIKES TIMES OBJECTS 1 & 2:";
 	obj1.print();
+	cout<<" , "; //Ektipwnei to komma(,)
+	obj2.print();
+	mySwap(&obj1, &obj2); //OBJECTS SWAP
+	cout<<"\nNEES TIMES OBJECTS 1 & 2:";
+	obj1.print();
 	cout<<" , "; //Ektipwnei to komma (,)
 	obj2.print();
-	myTemplate(&obj1, &obj2)
-	
-	cout<<
+
+	cout<<"\n\n";
+	cout<<"------------------------------------------------------------------\n\n";
+
+	system("PAUSE");
 	return 0;
 }
 
 //gia na kanoume epityxws swap , prepei na xrhsimopoihsoume pointers
 //gia na deixnoun se oti theloume kathe fora
+void mySwap(myGenericVariable *value1,myGenericVariable *value2)
+{
+	myGenericVariable temp = *value;
+	*value1 = *value2;
+	*value2 = temp;
+}
 
 	
