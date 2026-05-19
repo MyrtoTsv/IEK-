@@ -6,6 +6,8 @@ using namespace std;
 template <class myGenericVariable>
 
 void myGenericVariable mySwap(myGenericVariable *,myGenericVariable *);
+//mporw kai etsi mono sthn C++
+//void myGenericVariable mySwap(myGenericVariable &,myGenericVariable &);
 
 int main()
 {
@@ -58,5 +60,13 @@ void mySwap(myGenericVariable *value1,myGenericVariable *value2)
 	*value1 = *value2;
 	*value2 = temp;
 }
+
+// void mySwap(myGenericVariable &value1,myGenericVariable &value2)
+// {
+// 	myGenericVariable temp = value;
+// 	value1 = value2;
+// 	value2 = temp;
+// }
+
 
 	
