@@ -1,3 +1,4 @@
+//shorturl.at/HLT2u
 #include <iostream>
 #include <cstdlib>
 using namespace std;
