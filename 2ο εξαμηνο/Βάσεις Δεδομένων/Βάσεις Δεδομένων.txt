@@ -19,3 +19,28 @@ SELECT contactLastName,salesRepEmployeeNumber FROM customers;
 
 #Με το JOIN μπορούμε να δούμε αποτελέσματα από δύο πίνακες.Το ON δειχνουμε στο ξενο κλειδί που αντιστοιχεί στους δύο πίνακες
 SELECT customers.contactLastName,employees.lastName FROM customers JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber;
+
+(παω στο localhost/phpmyadmin/ στο classicmodels και παταω τον κωδικα mysql)
+#1.ΤΟ ΜΕΓΑΛΥΤΕΡΟ CREDITLIMIT ΑΠΟ ΠΕΛΑΤΗ
+SELECT MAX(CREDITLIMIT)FROM customers;
+
+#2.ΤΟ ΜΙΚΡΟΤΕΡΟ CREDITLIMIT ΑΠΟ ΠΕΛΑΤΗ
+SELECT MIN(CREDITLIMIT)FROM customers;
+
+#3.ΤΟ ΑΘΡΟΙΣΜΑ ΟΛΩΝ ΤΩΝ ΠΟΣΟΤΗΤΩΝ ΠΟΥ ΕΧΟΥΝ ΓΙΝΕΙ ΠΑΡΑΓΓΕΛΙΑ ΑΠΟ ΤΟ ΠΡΟΪΟΝ ΜΕ ΚΩΔΙΚΟ S10_1949
+SELECT SUM(quantityOrdered)FROM orderdetails WHERE productCode = 'S10_1949';
+
+#4.ΠΟΣΟΙ ΠΕΛΑΤΕΣ ΕΙΝΑΙ ΑΠΟ ΤΙΣ ΧΩΡΕΣ ΓΑΛΛΙΑ ΚΑΙ ΙΤΑΛΙΑ
+#* για να τους μετρησει ολους
+SELECT COUNT(*)FROM customers WHERE country in('France','Italy');
+
+#5.1EΜΦΑΝΙΣΕ ΤΟ ΕΠΩΝΥΜΟ ΤΟΥ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS KAI TON ΑΡΙΘΜΟ ΤΟΥ
+SELECT contactLastName,salesRepEmployeeNumber FROM customers;
+
+#5.ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS ΚΑΙ ΕΠΩΝΥΜΟ ΑΡΜΟΔΙΟΥ ΥΠΑΛΛΗΛΟΥ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ EMPLOYEES;
+#Με το JOIN μπορούμε να δούμε αποτελέσματα από δύο πίνακες.Το ON δειχνουμε στο ξενο κλειδί που αντιστοιχεί στους δύο πίνακες
+SELECT customers.contactLastName,employees.lastName FROM customers JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber;
+
+#6.ΠΟΣΟΤΗΤΑ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERDETAILS ΚΑΙ ΟΝΟΜΑ,ΠΕΡΙΓΡΑΦΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ PRODUCTS
+#Εδώ δεν χρειάζεται ON γιατι δεν ατνιστοιχει και δεν χρησιμοποιουμε καποιο ξενο κλειδι 
+SELECT orderdetails.quantityOrdered,products.productName,products.productDescription FROM orderdetails JOIN products;
