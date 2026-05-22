@@ -43,10 +43,13 @@ SELECT customers.contactLastName,employees.lastName FROM customers JOIN employee
 
 #6.ΠΟΣΟΤΗΤΑ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERDETAILS ΚΑΙ ΟΝΟΜΑ,ΠΕΡΙΓΡΑΦΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ PRODUCTS
 #TO ON το βαζουμε και ψαχνουμε το ξενο κλειδι μεταξυ των πινακων
-SELECT orderdetails.quantityOrdered,products.productName,products.productDescription FROM orderdetails JOIN products;
+SELECT orderdetails.quantityOrdered,products.productName,products.productDescription FROM orderdetails JOIN products ON orderdetails.productCode = product.productCode;
 
 #7-ΑΡΙΘΜΟ ΠΑΡΑΓΓΕΛΙΑΣ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERS ΚΑΙ ΟΝΟΜΑ ΚΑΙ ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS
 SELECT orders.orderNumber,customers.contactLastName,customers.contactFirstName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber;
 
 #7.1ΑΡΙΘΜΟ ΠΑΡΑΓΓΕΛΙΑΣ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERS ΚΑΙ ΟΝΟΜΑ ΚΑΙ ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS ΚΑΙ ΤΟ ΕΠΩΝΥΜΟ ΤΟΥ EMPLOYEE ΑΠΟ ΤΟΝ EMPLOYEE
 SELECT orders.orderNumber,customers.contactLastName,customers.contactFirstName,employees.lastName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber JOIN employees ON employees.employeeNumber =customers.salesRepEmployeeNumber;
+
+#δευτερος τροπος , που μπορουμε απλα να ορισουμε τους πινακες με ονομασιες
+SELECT A.orderNumber,B.contactLastName,B.contactFirstName,C.lastName FROM orders A JOIN customers B ON A.customerNumber=B.customerNumber JOIN employees C ON C.employeeNumber=B.salesRepEmployeeNumber;
