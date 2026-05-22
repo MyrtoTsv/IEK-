@@ -53,6 +53,7 @@ $result = mysqli_query($conn, $sql);
                 <!--Theloume an uparxei epilogh na diagrafoume ton xrhsth-->
                 <!--to onclick to vazoume gia confirm message an einai sigouros oti thelei na diagapsei ton user-->
                 <td><a href="deleteuser.php? email=<?php echo $row["email"];?>" onclick="return confirm('Are sure?')">Delete user</a></td>
+                <td><a href="updateuser.php? email=<?php echo $row["email"];?>">Update user</a></td>
             </tr>
         <?php } ?>
             
