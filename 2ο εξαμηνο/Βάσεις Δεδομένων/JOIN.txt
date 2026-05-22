@@ -47,3 +47,6 @@ SELECT orderdetails.quantityOrdered,products.productName,products.productDescrip
 
 #7-ΑΡΙΘΜΟ ΠΑΡΑΓΓΕΛΙΑΣ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERS ΚΑΙ ΟΝΟΜΑ ΚΑΙ ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS
 SELECT orders.orderNumber,customers.contactLastName,customers.contactFirstName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber;
+
+#7.1ΑΡΙΘΜΟ ΠΑΡΑΓΓΕΛΙΑΣ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERS ΚΑΙ ΟΝΟΜΑ ΚΑΙ ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS ΚΑΙ ΤΟ ΕΠΩΝΥΜΟ ΤΟΥ EMPLOYEE ΑΠΟ ΤΟΝ EMPLOYEE
+SELECT orders.orderNumber,customers.contactLastName,customers.contactFirstName,employees.lastName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber JOIN employees ON employees.employeeNumber =customers.salesRepEmployeeNumber;
