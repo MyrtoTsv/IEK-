@@ -42,5 +42,8 @@ SELECT contactLastName,salesRepEmployeeNumber FROM customers;
 SELECT customers.contactLastName,employees.lastName FROM customers JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber;
 
 #6.ΠΟΣΟΤΗΤΑ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERDETAILS ΚΑΙ ΟΝΟΜΑ,ΠΕΡΙΓΡΑΦΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ PRODUCTS
-#Εδώ δεν χρειάζεται ON γιατι δεν ατνιστοιχει και δεν χρησιμοποιουμε καποιο ξενο κλειδι 
+#TO ON το βαζουμε και ψαχνουμε το ξενο κλειδι μεταξυ των πινακων
 SELECT orderdetails.quantityOrdered,products.productName,products.productDescription FROM orderdetails JOIN products;
+
+#7-ΑΡΙΘΜΟ ΠΑΡΑΓΓΕΛΙΑΣ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ ORDERS ΚΑΙ ΟΝΟΜΑ ΚΑΙ ΕΠΩΝΥΜΟ ΠΕΛΑΤΗ ΑΠΟ ΤΟΝ ΠΙΝΑΚΑ CUSTOMERS
+SELECT orders.orderNumber,customers.contactLastName,customers.contactFirstName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber;
