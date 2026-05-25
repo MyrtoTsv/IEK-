@@ -4,7 +4,7 @@ class BankAccount:
 #Apofeugoume ta munhmata stis sunarthseis ths klashs, den theloume na epikoinwnoume me ton
 #xrthsth mesa sthm klash , mono mesa sthn main , giati prostateoume ta pedia ths klashs
     def deposit(self,amount):
-        if(amount < 0):
+        if(amount > 0):
             self.balance+=amount
 
     def show_balance(self):
