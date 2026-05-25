@@ -1,3 +1,4 @@
+#Auto tha einai paromoio me ena thema apo tis eksetaseis
 class Car:
     def __init__(self,brand,year):
         self.brand = brand
