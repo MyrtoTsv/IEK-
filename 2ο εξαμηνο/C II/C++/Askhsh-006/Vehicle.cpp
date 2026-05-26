@@ -10,9 +10,9 @@ int Vehicle::getCount()
 Vehicle::Vehicle(string id,int speed,int attack,int defence)
 {
 	setAll(id,speed,attack,defence);
-  count++;
-	cout<<"Object "<<id<<" "<<speed<<" "<<attack<<" "<<" "<<defence
-	<<" was created"<<endl;
+    count++;
+	cout<<"CONSTRUCTING Number "<<getCount() <<"Object "<<id <<"with values "<<speed <<" " <<attack<<
+    " " <<defence <<"\n";
 }
 
 //destructor
