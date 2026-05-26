@@ -13,9 +13,8 @@
 			int speed,attack,defence;
 			static int count;
 		
-			
 		public:
-			Vehicle(string,int,int,int);
+			Vehicle(string ="\0",int = 50,int = 30,int = 40);
 			~Vehicle();
 			void setAll(string,int,int,int);
 			void setId(string);
