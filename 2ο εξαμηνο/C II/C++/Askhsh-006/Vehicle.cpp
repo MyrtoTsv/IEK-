@@ -11,23 +11,24 @@ Vehicle::Vehicle(string id,int speed,int attack,int defence)
 {
 	setAll(id,speed,attack,defence);
     count++;
-	cout<<"CONSTRUCTING Number "<<getCount() <<"Object "<<id <<"with values "<<speed <<" " <<attack<<
+	cout<<"CONSTRUCTING Number "<<getCount() <<" Object "<<id <<"with values "<<speed <<" " <<attack<<
     " " <<defence <<"\n";
+    cout<<endl;
 }
 
 //destructor
-~Vehicle::Vehicle()
+Vehicle::~Vehicle()
 {
-	
+	cout<<"DESTRUCTING Object Number "<<getCount() <<endl;
+	count--;
 }
 
-//h setAll exei olous tous setters giati kanei set se ola
 void Vehicle::setAll(string id,int speed,int attack,int defence)
 {
 	setId(id);
 	setSpeed(speed);
 	setAttack(attack);
-	setDefense(defence);
+	setDefence(defence);
 }
 
 void Vehicle::setId(string id)
@@ -49,11 +50,6 @@ void Vehicle::setAttack(int attack)
 void Vehicle::setDefence(int defence)
 {
 	this->defence=defence;
-}
-
-static int Vehicle::getCount() const
-{
-	this->count=count;
 }
 
 
@@ -80,10 +76,8 @@ int Vehicle::getDefence() const
 //h print exei olous tous getters gt tupwnei ta apotelesmata
 void Vehicle::print() const
 {
-	cout<<getCount()<<endl;
 	cout<<getId()<<endl;
 	cout<<getSpeed()<<endl;
 	cout<<getAttack()<<endl;
 	cout<<getDefence()<<endl;
-	
 }

@@ -1,4 +1,4 @@
-#ifndef
+#ifndef VEHICLE_H
 	#define VEHICLE_H
 	
 	#include <iostream>
@@ -21,7 +21,7 @@
 			void setSpeed(int);
 			void setAttack(int);
 			void setDefence(int);
-			static int getCount() const;
+			static int getCount();
 			string getId() const;
 			int getSpeed() const;
 			int getAttack() const;
