@@ -35,10 +35,8 @@ n = input("Dwse mou ena onoma: ")
 greet(n)
 
 #3.
-import math
 def square(n):
-    print(math.pow(n,2))
+    return n*n
 
-num = float(input("Dwse mou enan arithmo: "))
-
-square(num)
+a = square(4)
+print (a)
