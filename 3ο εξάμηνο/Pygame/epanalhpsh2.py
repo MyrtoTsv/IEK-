@@ -16,3 +16,12 @@ E = (math.pi) * (math.pow(r,2))
 P = 2 * (math.pi) * r
 
 print("To emvadon einai:",E ,"kai h perimetros einai:",P)
+
+#Sunarthseis
+#1.emfanise apo to 1 ews to 50
+def arithmoi():
+    for i in range(1,51):
+        print(i)
+
+#klhsh ths sunarthshs
+arithmoi() 
