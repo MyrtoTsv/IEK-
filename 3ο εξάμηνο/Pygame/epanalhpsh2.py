@@ -66,3 +66,15 @@ num = int(input("Dwse enan arithmo: "))
 
 print("To paragontiko einai: ",factorial(num))
 
+#klasseis
+class Logariasmos:
+    def __init__(self,name,upoloipo):
+        self.name=name
+        self.upoloipo=upoloipo
+
+    #h sunarthsh prepei panta na exei to self mesa
+    def analhpsh(self,poso):
+            if self.upoloipo >= poso:
+                self.upoloipo -= poso
+
+l1 = Logariasmos("Myrtw",320)
