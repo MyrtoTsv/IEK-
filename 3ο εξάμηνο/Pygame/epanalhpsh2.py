@@ -7,3 +7,12 @@ for i in range(20,88):
     count = count + 1
 
 print("O mesos oros twn stoixeiwn einai: ",sum/count)
+
+#Askhsh me emvadon kuklou
+import math
+r = float(input("Dwse thn aktina enos kuklou: ")) #to input by default parmei panta string.Ara to kanoume cast se float.
+
+E = (math.pi) * (math.pow(r,2))
+P = 2 * (math.pi) * r
+
+print("To emvadon einai:",E ,"kai h perimetros einai:",P)
