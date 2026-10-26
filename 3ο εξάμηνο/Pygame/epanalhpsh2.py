@@ -40,3 +40,29 @@ def square(n):
 
 a = square(4)
 print (a)
+
+#4. paragontiko
+#1os tropos , me anadromh
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+num = int(input("Dwse enan arithmo: "))
+
+print ("To paragontiko einai: ",factorial(num))
+#2os tropos , me for
+def factorial(n):
+     if n == 0:
+         return 1
+     else:
+        par = 1 # oxi 0 , giati ama valoume 0 me oti kai na poll/soume tha mhdenistei
+        for i in range (1,n+1): #oxi sketo n , gt den tha parei to teleutaio pshfio
+            par = par * i
+        return par
+
+num = int(input("Dwse enan arithmo: "))
+
+print("To paragontiko einai: ",factorial(num))
+
