@@ -25,3 +25,11 @@ def arithmoi():
 
 #klhsh ths sunarthshs
 arithmoi() 
+
+#2.
+def greet(name):
+    print("Hello ",name)
+
+n = input("Dwse mou ena onoma: ")
+
+greet(n)
