@@ -10,3 +10,13 @@ Unity
 Godot
 
 Open World games:Rendarei mono auta pou vlepei o paikths.Auta pou den vlepei o paikths , ksefortwnei gia na mhn einia toso vary.
+
+3ds max shmeiwseis:
+-sxediaw sto top
+-top left kai front onomazontai orthografika view points
+to prwto vhma einai na ftiaksoume to antikeimeno , to deutero vhma einai na to kanoume modify , nato tropopoihsoume
+-to modify panel einai sto menu deksia , to deutero ( pou gernei
+-to katw 0 - 100 einai ta frames.
+-vazw N gia na mpw se animation view, kai to kounaw sto prwto 0 ,kai meta sto 100 to vazw sthn allh akrh kai an pathsw play tha kounietai
+px exw mia sfaira
+-ama sto modify allaksw to segment , valw sto frame 0 segment 4 kai sto frame 100 valw segment 50 tote apo romvos tha ginei sfaira
