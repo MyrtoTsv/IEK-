@@ -29,3 +29,5 @@ Vasiko modeling:
 -deksi click, convert,editable poly kai sto modify panel,alalzoume to radius kai tou vazw cap segments 2 ,epilegoume to vertex kai pianoume ta
 duo panw kai ta mikrainoume me to R (oxi apo to 3d , apo to front),,meta sto polygon pianw ola ta polugwna kai delete.
 Sto stomio, edit swift loop etc kai vazoume dyo stomia . Ta kanoume scale. Meta se oti einai , to stroggulopoioume me chamfer.
+
+-gia to pothri , ftiaxnuome thn mish grammh , me line , meta modify vertex , meta lathe , axis kai travaw ton x aksona
