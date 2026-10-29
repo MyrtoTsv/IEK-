@@ -20,3 +20,10 @@ to prwto vhma einai na ftiaksoume to antikeimeno , to deutero vhma einai na to k
 -vazw N gia na mpw se animation view, kai to kounaw sto prwto 0 ,kai meta sto 100 to vazw sthn allh akrh kai an pathsw play tha kounietai
 px exw mia sfaira
 -ama sto modify allaksw to segment , valw sto frame 0 segment 4 kai sto frame 100 valw segment 50 tote apo romvos tha ginei sfaira
+-me to M anoigoume to material editor , ftiaxnoume ulika etc
+-Modes , combat material editor
+-me N pathmeno , katw sto base Color and reflections 
+
+Vasiko modeling:
+-deksi click, convert,editable poly kai sto modify panel,epilegoume to vertex kai pianoume ta
+duo panw kai ta mikrainoume me to R , kai cahmfer , edit swift loop etc
