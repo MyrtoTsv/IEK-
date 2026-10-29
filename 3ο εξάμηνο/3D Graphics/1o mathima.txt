@@ -24,6 +24,8 @@ px exw mia sfaira
 -Modes , combat material editor
 -me N pathmeno , katw sto base Color and reflections 
 
+uniform scale->to R me gemato trigwnaki
 Vasiko modeling:
--deksi click, convert,editable poly kai sto modify panel,epilegoume to vertex kai pianoume ta
-duo panw kai ta mikrainoume me to R , kai cahmfer , edit swift loop etc
+-deksi click, convert,editable poly kai sto modify panel,alalzoume to radius kai tou vazw cap segments 2 ,epilegoume to vertex kai pianoume ta
+duo panw kai ta mikrainoume me to R (oxi apo to 3d , apo to front),,meta sto polygon pianw ola ta polugwna kai delete.
+Sto stomio, edit swift loop etc kai vazoume dyo stomia . Ta kanoume scale. Meta se oti einai , to stroggulopoioume me chamfer.
