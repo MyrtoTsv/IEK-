@@ -1,0 +1,9 @@
+Pygame vivliothikh ths Python gia dhmiourgia paixnidwn.
+>Grafika, hxo,keybaord kai mouse
+>Sxediazei sxhmata h eikones 
+>2d grafika
+
+Installation:
+Sto vs , terminal new terminal kai grafoume
+1os tropos: pip install pygame(pithanotata na mhn doulepsei)
+2os tropos: py -m pip install -U pygame --user
