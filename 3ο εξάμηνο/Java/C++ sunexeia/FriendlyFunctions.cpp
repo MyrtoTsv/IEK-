@@ -1,4 +1,3 @@
-//Thn epomenh fora na ferw lumenh thn askhsh 7
 #include <iostream>
 #include <cstdlib.h>
 
