@@ -31,3 +31,4 @@ duo panw kai ta mikrainoume me to R (oxi apo to 3d , apo to front),,meta sto pol
 Sto stomio, edit swift loop etc kai vazoume dyo stomia . Ta kanoume scale. Meta se oti einai , to stroggulopoioume me chamfer.
 
 -gia to pothri , ftiaxnuome thn mish grammh , me line , meta modify vertex , meta lathe , axis kai travaw ton x aksona
+
