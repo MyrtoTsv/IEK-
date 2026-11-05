@@ -32,3 +32,13 @@ Pothri krasi:
 >meta to kanw smooth , deksi click sto modify panel , sto vertex, ta dialegaw ola(me diplo aristero click) , deksi click smooth
 >pame sto modify , vazw to modifier ena lathe
 >mpainounme sto axis ,patame w gia na vroume ton aksona y, kai kanoume strech ston aksona y kai vghke to pothri
+
+Etiketa:
+>M  sto object , anoigei to materials editor , sto physical material vazw multisubobject material
+>enai 10 , sto set number epilegw mono ta 2.Sto none to vgazw to none kai twra vazw physical material
+>kai sta dyo vazw diaforetika xrwmata
+>Meta to kanw drag and drop sto object
+>Meta sto modifier list, paw sto polygon , epilegw olo to object kai vazw set ID 1, kai meta sto epilegw ta polygon pou thelw na valw thn etiketa me control , kai ta kanw set ID 2.
+Ama leitourghsei swsta , tha exw duo diaforetika xrwmata
+>Meta sto material editor , dipla apo to xrwma ths "etiketas",pataw to keno gkri tetragwnaki , kai psaxnw thn leksh bitmap.
+>Vazw thn eikona pou exw katevasei kai thn fortwnei.Omws twra den xwraei sta polugwna kai prepei na thn kanoume adjust.
