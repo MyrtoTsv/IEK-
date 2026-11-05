@@ -42,3 +42,7 @@ Etiketa panw sto krasi:
 Ama leitourghsei swsta , tha exw duo diaforetika xrwmata
 >Meta sto material editor , dipla apo to xrwma ths "etiketas",pataw to keno gkri tetragwnaki , kai psaxnw thn leksh bitmap.
 >Vazw thn eikona pou exw katevasei kai thn fortwnei.Omws twra den xwraei sta polugwna kai prepei na thn kanoume adjust.
+>Sto modifier list , vazw thn epilogh, Unwrap UVW(Deixnoume se 3d gewmetria , pws tha parei thn eikona ,auto kanei to unwrap)
+>Sto menu katw katw deksia leei Edit UVs: Open UV Editor(afou exw kanei select to object)
+>Katw deksia ,sto All iDs,epilegw to 2 kai mias vgazei ta polugons ths etiketas
+>kai sto menu panw aristera , pataw to trito pathmeno kai to patw kai pros ta panw na xwresei
