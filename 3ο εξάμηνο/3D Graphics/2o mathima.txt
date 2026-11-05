@@ -14,7 +14,7 @@ Mpoukali krasi:
 >sto modify panel , cap segments 2 , height 36
 >deksi click ston kulindro ,convert to editable poly gia thn epeksergasia , me anoixto to R to uniform
 >sto menu deksia , sto 2o pou einai to modify panel,pame sto modifier list ,sto editable poly
-
+>Epilegoume to vertex, 
 >sto modifier list ,sto editable poly, patame to polygon
 >pame sto stomio stou cylinder , me me control pathmeno , epilegoume ola ta polugwna panw ston mirko kuklo kai to kanoume delete
 >Deksi click , chamfer , 
