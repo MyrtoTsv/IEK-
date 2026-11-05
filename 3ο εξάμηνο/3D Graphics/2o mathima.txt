@@ -1,0 +1,16 @@
+Animation sfairas:
+>Patame N mode , auto einai se animation mode
+>Sexdiazoume thn sfaira sto Top
+>pairnoume mia sfaira , kai me 2 thn metakinoume ana sta frames aktw pou theloume dhmiourgoume kleidia
+>vazoume sthn arxh sta segments na einai 0 gia na ksekinaei ston romvo
+>meta sto 100 frame , semgents 32 gia na ginei sfaira
+>sto prwto frame , patame M gia na anoiksei o material editor , allazoume xrwma , to kanoume drag and drop sto object kai patame ok
+>sto 100 frame patama M gia na anoiksei o material editor , vazoume allo xrwma (gia na allaksei xrwma), to kanoume drag and drop sto object kai patame ok
+>kai prospathoume kai sto telos na to megalwsoume kai ligo
+
+Krasi:
+>pairnoume sto cylinder , sto top kai ftiaxnoume ena antikeimeno
+>F3/F4 na vlepoume thn gewmetria
+>sto modify panel , cap segments 2 , height 36
+>deksi click ston kulindro ,convert to editable poly gia thn epeksergasia , me anoixto to R to uniform
+>sto menu deksia , sto 2o pou einai to modify panel,pame sto modifier list ,sto editable poly
