@@ -12,11 +12,18 @@ Mpoukali krasi:
 >pairnoume sto cylinder , sto top kai ftiaxnoume ena antikeimeno
 >F3/F4 na vlepoume thn gewmetria
 >sto modify panel , cap segments 2 , height 36
+>R me oti epeksergasia , panta se uniform
 >deksi click ston kulindro ,convert to editable poly gia thn epeksergasia , me anoixto to R to uniform
 >sto menu deksia , sto 2o pou einai to modify panel,pame sto modifier list ,sto editable poly
->Epilegoume to vertex, 
+>Epilegoume to vertex, pairnoume sta duo panw ,R kai scale  kai ta kanoume scale (mikrainoume)
+>epilegoume to panw ,meta me to move pshlwnoume to panw 
+>meta edit , switft loop , vazoume mia loop , kai allo ena loop ligo pio katw
+>Epilegoume ta duo panw kai ta kanoume scale pros ta eksw na fainetai san kapaki
 >sto modifier list ,sto editable poly, patame to polygon
 >pame sto stomio stou cylinder , me me control pathmeno , epilegoume ola ta polugwna panw ston mirko kuklo kai to kanoume delete
->Deksi click , chamfer , 
+>Paw se edge mode,Se ola tis grammes orizonties ,deksi click, kanoume chamfer , anoigoiume to menu tou chamfer kai sto deutero , anevazw ton dekadiko arithmo mexri na stroggulopoihthei se diafora opws mou fainetai pio omorfo
+>Katw katw , metakinoume me scale to katw kuklaki
+
+
 
 Pothri krasi:
