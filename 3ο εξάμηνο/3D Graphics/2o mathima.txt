@@ -33,7 +33,7 @@ Pothri krasi:
 >pame sto modify , vazw to modifier ena lathe
 >mpainounme sto axis ,patame w gia na vroume ton aksona y, kai kanoume strech ston aksona y kai vghke to pothri
 
-Etiketa:
+Etiketa panw sto krasi:
 >M  sto object , anoigei to materials editor , sto physical material vazw multisubobject material
 >enai 10 , sto set number epilegw mono ta 2.Sto none to vgazw to none kai twra vazw physical material
 >kai sta dyo vazw diaforetika xrwmata
