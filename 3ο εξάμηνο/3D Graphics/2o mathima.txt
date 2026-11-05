@@ -8,7 +8,7 @@ Animation sfairas:
 >sto 100 frame patama M gia na anoiksei o material editor , vazoume allo xrwma (gia na allaksei xrwma), to kanoume drag and drop sto object kai patame ok
 >kai prospathoume kai sto telos na to megalwsoume kai ligo
 
-Krasi:
+Mpoukali krasi:
 >pairnoume sto cylinder , sto top kai ftiaxnoume ena antikeimeno
 >F3/F4 na vlepoume thn gewmetria
 >sto modify panel , cap segments 2 , height 36
@@ -18,3 +18,5 @@ Krasi:
 >sto modifier list ,sto editable poly, patame to polygon
 >pame sto stomio stou cylinder , me me control pathmeno , epilegoume ola ta polugwna panw ston mirko kuklo kai to kanoume delete
 >Deksi click , chamfer , 
+
+Pothri krasi:
