@@ -1,9 +1,60 @@
 Pygame vivliothikh ths Python gia dhmiourgia paixnidwn.
 >Grafika, hxo,keybaord kai mouse
 >Sxediazei sxhmata h eikones 
->2d grafika
+>2d grafika, disdiastata paixnidia
 
 Installation:
 Sto vs , terminal new terminal kai grafoume
 1os tropos: pip install pygame(pithanotata na mhn doulepsei)
-2os tropos: py -m pip install -U pygame --user
+2os tropos: py -m pip install -U pygame --user(autos leitourgei)
+
+Sta paxindia kai se ola ta grafika , o aksonas x einai anapoda. Einai panw o x kai o y einai kathetos pros ta aristera. moiazei etsi .Prwta stis suntetagmenes grafoume to x kai meta to y.
+Ama einai as poume to (270,100) , einai to x =270 kai y = 100
+
+ (0,0)     (270)
+------------|--------------> x
+|           |
+|           |
+--(100) ----O(270,100) 
+|    Otan auto to antikeimeno thelw na kounithei pros ta katw , to y prepei na auksanetai
+|
+|
+|
+y
+
+Colors:
+Paei sumfwna me to RBG(Red , Green, Blue)
+Dhmiourgia xrwmatos:
+xrwma = (R, G, B)
+>px kokkino = (255,0,0)
+   >gkri = (175,175,175)
+   >mavro = (0 ,0 ,0)
+0 ->Katholou xrwma
+255-> olo to xrwma
+
+Yparxei tetarth timh , h diafaneia(alpha). RBGA
+Shmainei poso diafano tha einai to xrwma .Oso to anevazoume , toso pio diafano ginetai.
+>px transparent)blue = (0 , 0 , 255 , 128)
+                        R  ,G ,  B  ,   A
+
+Game Logic:
+1)Arxikopoihsh
+2)Atermwn Vroxos
+Arxikopoihsh 
+     |
+     |
+(atermwn vroxos) Theloume edw na uparxei enas atermwn vroxos pou zwgrafizei sunexeia.
+Kanei ena sunexomeno kare .Diavazei
+an pathsame kapoio plhktro apo to plhktrologio ,
+(                    )
+[](auto einai to kare)
+(                    )
+
+3)Logikh tou paixnidiou
+H logikh tou paixnidou einai pws kouniountai ta natikeimena , enhmerwsh score , elegxos nikhs h httas , anixnenush sugkrousewn , einai o kwdikas pou allazei thn katastash tou paixnidiou,rendering(apeikonikh).
+
+O kurios vroxos , to main game loop einai h kardia tou paixnidiou. FPS->Frames Per Second,posa kare provalontai to deuterolepto.Auto sthn pygame mporoume na to ruthisoume.
+>Oso pio liga einai ta frames, ligotero omalh kinhsh.Ara ama theloume omalh kinhsh , vazoume parapanw frames.
+-Elegxei ta gegonota(input)
+-Enhmerwnei thn logikh(update logic)
+-Sxediazei ta panta ksana(rendering)
