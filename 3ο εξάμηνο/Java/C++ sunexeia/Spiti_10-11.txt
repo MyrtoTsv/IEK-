@@ -7,3 +7,8 @@ Thn epomenh fora na ferw lumenh thn askhsh 7
 Το Proxy Pattern (μοτίβο διαμεσολαβητή) χρησιμοποιείται όταν θέλουμε μια κλάση να λειτουργεί ως ενδιάμεσος μεταξύ του χρήστη και ενός άλλου αντικειμένου.
 Αντί να προσπελαύνουμε απευθείας ένα αντικείμενο, περνάμε πρώτα από ένα Proxy.
 
+------------------------------------------------------------------------------------------------------------------------
+10/11:
+>Thn epomenh fora , na ferw lumenh thn askhsh 8
+>me vash to new-delete-example.cpp 
+>H idea einai na ftiaskoume ton deutero pinaka ,dunamiko pinaka (me to new) alla pinaka antikeimenwn 
