@@ -23,3 +23,6 @@
 >sto animation , emeis orizoume to speed
 >dipla sto animation blueprint, fainetai ti kanei o xaraktras,sto default legetai state machine
 >to 3d modelo , legetai mesh(sto viewport)
+
+----------------------------------------------------
+>Sta palce
