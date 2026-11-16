@@ -77,6 +77,9 @@ while running:#Etsi ginetai atermwn vroxos giati to running einai panta true
     #ellipsh
     pygame.draw.ellipse(screen,(0,255,0),(100,100,200,120),3)
 
+    #polygwno
+    pygame.draw.polygon(screen, blue ,[(100, 300), (200, 100) , (300, 300)], 0)
+
     # Ενημέρωση της οθόνης
     #Sthn pragmatikothta uparxoun 2 frames,diplo buffer. Thn wra pou vlepw egw ena frame sthn othonh , apo pisw einai to allo pou zwgrafizei kai sto etoimazei
     #Apotrepei to tremopegma , to flickering me to ena einai 2 frames mprosta kai pisw.
